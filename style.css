@@ -1,0 +1,652 @@
+body {
+  margin: 0px;
+  
+}
+h4,
+h1,h3 {
+  margin: 0px;
+}
+@font-face {
+  font-family: Jalliestha;
+  src: url(fonts/Jalliesth.ttf);
+}
+@font-face {
+  font-family: Monsserrate;
+  src: url(fonts/Monsserrate.ttf);
+}
+.HeaderMain {
+  height: 100px;
+  width: 100%;
+}
+.header {
+  display: flex;
+  height: 71px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.logo {
+  width: 10%;
+  height: 70px;
+}
+.logoimg {
+  width: 98%;
+  height: 72px;
+}
+.HeaderTextContainer {
+  display: flex;
+  height: 34px;
+  margin-top: 23px;
+  font-family: "Montserrat";
+  color: #28183e;
+  letter-spacing: 1.6px;
+  margin-left: 40px;
+}
+.HeadText1 {
+  height: 34px;
+}
+.p1head,.p2head,.p3head,.TextHeader,.searchkey
+ {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  color: #28183e;
+  letter-spacing: 1.6px;
+}
+.p1head {
+  width: 138px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 34px;
+}
+.HeadText2 {
+  height: 34px;
+
+  margin-left: 18px;
+}
+.p2head {
+  width: 188px;
+  padding-left: 11px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 34px;
+  padding-top: 5px;
+}
+.p2img {
+  float: right;
+  padding-top: 3px;
+}
+.TextHeader:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  color: #e3bd9f;
+}
+.HeadText3 {
+  height: 34px;
+  margin-left: 18px;
+}
+.p3head {
+  width: 158px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 34px;
+}
+.gyap {
+  width: 250px;
+}
+.HeaderSigninContainer {
+  display: flex;
+  font-family: "Montserrat";
+  color: #28183e;
+  letter-spacing: 1.6px;
+  width: 260px;
+}
+.searchkeycontain {
+  display: flex;
+  height: 38px;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.searchkey {
+  height: 35px;
+  width: 110px;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.SearchImg {
+  float: right;
+}
+
+.signincontainer2 {
+  display: flex;
+  margin-top: 18px;
+  margin-left: 23px;
+  height: 41px;
+  width: 117px;
+}
+.SignButton {
+  border-radius: 42px;
+  height: 40px;
+  width: 115px;
+  border-color: #e3bd9f;
+  border-style: solid;
+  background-color: #e3bd9f;
+
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+}
+.SignButton:hover {
+  background-color: #f0ebe9;
+}
+.Container2 {
+  display: flex;
+  width: 100%;
+}
+.TextpartContainer2 {
+  display: flex;
+  width: 694px;
+  height: 670px;
+  background-color: #5a0f4d;
+}
+.HeadTextMainCon1 {
+  display: inline;
+  margin: 50px;
+  font-family:"Monsserrate"  ;
+  height: 564.896px;
+}
+.HeadTextCon2{
+  letter-spacing: 4px;
+  font-size: 38px;                               
+  font-family: "Jalliestha";
+  color: #fff;
+  line-height: 28.8px;
+}
+.HeadTextCon2 h4{
+  font-family:Jalliestha ;
+}
+.Text1 {
+  display: block;
+  font-family: "Montserrat";
+  font-size: 47px;
+  color: #fff;
+  font-weight: 300;
+  height: 60px;
+  margin-top: 36px;
+}
+.Text2 {
+  display: block;
+}
+.P1 {
+  display: block;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 22px;
+  line-height: 43.2px;
+  letter-spacing: normal;
+  width: 571.667px;
+}
+.ButtonContainer {
+  display: inline-block;
+  margin-top: 20px;
+}
+#button {
+  cursor: pointer;
+  background-color: #e3bd9f;
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: rgb(227, 189, 159);
+  font-family: "Montserrat";
+  font-size: 16px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+#button:hover {
+  background-color: #fff;
+}
+.ImgPartContainer2 {
+  justify-content: flex-end;
+}
+.ImgLady {
+  height: 670px;
+  width: 567.667px;
+}
+.Container3 {
+  display: flex;
+  height: 300px;
+}
+.Container3Sub {
+  margin: 60px;
+  width: 1150px;
+}
+#LogoCenter {
+  margin-top: 22px;
+}
+.ImgCenterLilly {
+  display: inline-block;
+  float: right;
+  height: 300px;
+  z-index: -1;
+}
+#ImgLilly {
+  margin-top: 20px;
+  transform: rotate(180deg);
+  height: 325px;
+  margin-right: 2px;
+}
+#TextCenter {
+  font-size: 31px;
+  line-height: 54px;
+  font-family: "Montserrat";
+  color: rgb(40, 24, 62);
+}
+
+
+.Products {
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.Product1,
+.Product2,
+.Product3 {
+  display: block;
+  width: 360px;
+  height: 403px;
+font-family: "Montserrat";
+  border-color: #e3bd9f;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  color: rgb(40, 24, 62);
+}
+.Product2,
+.Product3 {
+  margin-left: 15px;
+}
+.Product1mgContainer {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.Product1Img {
+  height: 186px;
+}
+
+.Product1Text {
+  display: block;
+  background-color: rgb(227, 189, 159);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: "Montserrat";
+  text-align: left, center;
+  padding-top: 30px;
+  height: 63px;
+}
+a {
+  text-decoration: none;
+  color: rgb(40, 24, 62);
+  padding-left: 20px;
+}
+
+.Product2Text {
+  display: block;
+  background-color: rgb(198, 166, 204);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: "Montserrat";
+  text-align: left, center;
+  padding-top: 30px;
+  height: 63px;
+}
+.Product3Text {
+  display: block;
+  background-color: rgb(169, 210, 165);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: "Montserrat";
+  text-align: left, center;
+  padding-top: 30px;
+  height: 63px;
+}
+.Arrow1Img {
+  height: 23px;
+  width: 26px;
+  margin-left: 170px;
+  align-items: center;
+}
+.Arrow2Img {
+  height: 23px;
+  width: 26px;
+  margin-left: 130px;
+}
+.Arrow3Img {
+  height: 23px;
+  width: 26px;
+  margin-left: 140px;
+}
+.Button2 {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.ProductButton {
+  width: 250px;
+  height: 48px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color:  #e3bd9f;
+  background-color: #e3bd9f;
+  border-width: 2px;
+  color: rgb(40, 24, 62);
+  letter-spacing: 1.4px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  transition-duration: 0.4s;
+  margin-bottom: 50px;
+}
+.ProductButton:hover {
+  background-color: #fff;
+}
+.Container5{
+    display: flex;
+    justify-content: center;
+ 
+    background-image:linear-gradient(101deg, #5a0f4d 8.22%, #200c32 48.42%, #220d3e 93.91%);
+  
+
+}
+.Container5Sub{
+display: flex;
+
+
+}
+.Text1Container5{
+
+    font-size: 42px;
+    color: rgb(245, 202, 191);
+    font-family: "Montserrat";
+    text-align: center;
+    font-weight: 700;
+    
+    margin-bottom: 50px;
+    line-height: 54px;
+    letter-spacing: normal;
+    font-style: normal;
+    width: 100vh;
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+
+    
+}
+.TextPower{
+  margin:50px;
+}
+.hero-img{
+    width:914px;
+    height: 514px;
+    margin: auto;
+    background-size: 90%;
+    object-fit: fill;
+    background: url("luximages/videoimg.avif");
+    background-position: center;
+}
+.RoundButton{
+    width: 50px;
+  padding-top: 230px;
+}
+.Container6{
+ display: block;
+  background-color: #f5cabf;
+  padding: 60px;
+  margin: 0;
+}
+.headingcontainer6{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Montserrat";
+  color:#28183e ;
+}
+.space1{
+  height: 50px;
+}
+
+.MainSectorContainer6{
+  display: flex;
+}
+.imgContainer6{
+  display: block;
+
+}
+.imgcon6{
+ 
+  width: 571px;
+  object-fit: contain;
+}
+.TextpartMainContainer6{
+display: flex;
+padding: 60px;
+background-color: hsla(0, 0%, 100%, .7);
+}
+.TextPartContainer6{
+  flex-direction: row;
+}
+.HeadTextCon6{
+  display: block;
+font-size: 32px;
+margin-bottom :25px;
+font-family: "Montserrat";
+line-height :50px;
+
+}
+.Con6Para{
+  display: block;
+  font-size:16px;
+  line-height: 35px;
+  font-family:"Montserrat";
+  text-wrap: wrap;
+  margin-bottom: 20px;
+}
+.LogosContainer6{
+  display: flex;
+
+}
+.Con6Logo{
+padding: 10px;
+}
+.ButtonCon6{
+  display: block;
+}
+.Button6{
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+  border-color: #e3bd9f;
+  background-color: #e3bd9f;
+  border-width: 2px;
+  color: rgb(40, 24, 62);
+  font-family: "Montserrat";
+  transition-duration: 0.4s;
+  font-weight: 400;
+  border-style: solid;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+}
+.Button6:hover{
+  background-color: #fff;
+}
+footer{
+  background-color: #f5cabf;
+}
+.FooterHeadContainer{
+  
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+
+}
+.Footer{
+display: flex;
+margin-top: 40px;
+}
+
+.FooterContainer{
+  display: flex;
+
+}
+.LogoFooter{
+display: block;
+
+}
+
+.LogoimgFooter{
+  width: 118px;
+  height: 68px;
+}
+.ToTop{
+  display: flex;
+  position: absolute;
+  left: 1063px;
+float: right;
+margin-top: -60px;
+
+
+}
+.Top{
+  flex-direction: column;
+ font-family:"Montserrat";
+ letter-spacing: 1.4px;
+}
+.Buttontop{
+  width: 200px;
+  height: 60px;
+  border-style: none;
+  font-size: 16px;
+  text-align: start;
+}
+.ArrowUpImg{
+  width: 15px;
+  height: auto;
+
+}
+.ImgArrowUpContainer{
+display: inline;
+margin-left: 5px;
+}
+.SubContainer{
+display: flex;
+  
+}
+.FirstTextFooter{
+  flex-direction: row;
+  line-height: 38.4px;
+  margin-left: 150px;
+  text-decoration: none;
+ 
+}
+
+.FooterHeadContainer{
+  font-family:"Montserrat" ;
+
+}
+
+.UlFooter{
+  list-style-type: none;
+
+
+}
+ul,li{
+  padding: 0;
+  list-style-type: none;
+  margin-top: 0;
+
+}
+
+.HeadH4Footer{
+  padding-bottom: 10px;
+}
+.SecondTextFooter{
+  flex-direction: row;
+  line-height: 38.4px;
+  margin-left: 80px;
+  text-decoration: none;
+}
+.ThirdTextFooter{
+  flex-direction: row;
+  line-height: 38.4px;
+  margin-left: 80px;
+  margin-right: 150px;
+  text-decoration: none;
+  letter-spacing: 1.024px;
+
+}
+.FollowUs{
+  flex-direction: row;
+  line-height: 38.4px;
+  
+
+
+}
+.IconsFooter{
+  flex-direction: column;
+  width: 25px;
+  height: auto;
+  text-align: center;
+}
+.IconFooterCon{
+  display: flex;
+
+
+}
+.one{
+margin-top: 5px;
+
+}
+.Footerli{
+  padding-left: 10px;
+}
+.FoterContainer2{
+display: flex;
+padding-left: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left:20px ;
+}
+.FooterAllRightContainer{
+
+padding-left: 450px;
+padding-right:  450px;
+font-family: "Montserrat";
+font-size: 13px;
+color: rgb(40, 24, 62);
+}
+.RightsTagLogo{
+  display: flex;
+}
+.RightTagLogo{
+width: 40px;
+height: auto;
+}
+.TextFooterRights{
+ margin-left: 20px;
+ opacity: 0.5;
+}
